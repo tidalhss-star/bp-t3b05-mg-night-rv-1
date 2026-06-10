@@ -1,110 +1,334 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>마곡 유흥 팩트 칼럼: 엘든링 히든 데이터마이닝으로 찾은 황금 요율 | 마곡 BRO RUBY RED</title>
-  <meta name="description" content="마곡 유흥 후기 뒤에 가려진 마케팅 가스라이팅 타파. 엘든링 클라이언트 데이터마이닝에 비견되는 집착으로 파헤친 진짜 정찰제 요율 분석 보고서.">
-  <meta name="keywords" content="마곡 유흥 꿀팁, 마곡 유흥 칼럼, 엘든링 데이터마이닝">
-  <link rel="canonical" href="https://t3b05-mg-night-rv-1.pages.dev/blog.html">
-
-  <style>
-    :root {
-      --primary: #0F0205;
-      --secondary: #310D12;
-      --accent: #E63946;
-      --bg: #050102;
-      --text: #F8EDEF;
-      --font: 'Pretendard', -apple-system, sans-serif;
-    }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      font-family: var(--font);
-      line-height: 1.8;
-      letter-spacing: -0.02em;
-    }
-    a { color: var(--accent); text-decoration: none; transition: 0.3s; }
-    a:hover { filter: brightness(1.2); }
-    .header {
-      backdrop-filter: blur(15px);
-      background: rgba(15, 2, 5, 0.85);
-      border-bottom: 1px solid rgba(230, 57, 70, 0.25);
-      position: sticky; top:0; z-index:100; padding: 15px 24px;
-    }
-    .header-inner {
-      max-width: 1200px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;
-    }
-    .logo { font-size:1.3rem; font-weight:900; color:var(--accent); text-shadow: 0 0 10px rgba(230, 57, 70, 0.6); }
-    .nav { display:flex; gap:20px; font-size:0.9rem; }
-    .nav a { color: rgba(248, 237, 239, 0.8); font-weight:600; }
-    .nav a:hover { color: var(--accent); }
-
-    .main { max-width: 800px; margin: 0 auto; padding: 60px 24px; }
-    .post-header { margin-bottom: 40px; border-bottom: 1px solid rgba(230, 57, 70, 0.15); padding-bottom: 20px; }
-    .post-title { font-size: 2.3rem; font-weight:900; color: #fff; line-height: 1.3; text-shadow: 0 0 10px rgba(230, 57, 70, 0.3); }
-    .post-meta { font-size: 0.9rem; opacity: 0.7; margin-top: 10px; }
-    .post-content { font-size: 1.05rem; opacity: 0.95; }
-    .post-content p { margin-bottom: 24px; }
-    .post-content blockquote {
-      border-left: 4px solid var(--accent); padding-left: 20px; margin: 30px 0; font-style: italic; opacity: 0.9;
-    }
-
-    .footer {
-      background: #050102; border-top: 1px solid rgba(230, 57, 70, 0.2); padding: 48px 24px; text-align:center; font-size:0.9rem; opacity:0.8;
-    }
-    .footer p { margin-bottom: 12px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마곡 유흥 후기 :: 블로그</title>
+    <meta name="description" content="마곡 유흥 후기 블로그: 진짜 유저가 쓴 생생한 후기, 가격과 분위기 팁까지 다 털어줌. 놀러가기 전에 꼭 읽어보셈">
+    <meta name="keywords" content="마곡 유흥 후기, 마곡 유흥 블로그, 마곡 밤문화 후기, 마곡 술집 추천, 마곡 유흥주점 후기">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://t3b05-mg-night-rv-1.vercel.app/blog">
+    <!-- OG + Twitter -->
+    <meta property="og:title" content="마곡 유흥 후기 :: 찐리얼 블로그">
+    <meta property="og:description" content="마곡 유흥 후기 블로그: 진짜 유저가 쓴 생생한 후기, 가격과 분위기 팁까지 다 털어줌.">
+    <meta property="og:url" content="https://t3b05-mg-night-rv-1.vercel.app/blog">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://t3b05-mg-night-rv-1.vercel.app/og-blog.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마곡 유흥 후기 :: 찐리얼 블로그">
+    <meta name="twitter:description" content="마곡 유흥 후기 블로그: 진짜 유저가 쓴 생생한 후기, 가격과 분위기 팁까지 다 털어줌.">
+    <style>
+        /* reset / base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f5ed00; /* acid yellow base */
+            color: #1a1a1a;
+            line-height: 1.4;
+            padding: 0 16px;
+        }
+        :root {
+            --brutal-border: 4px solid #000;
+            --brutal-shadow: 8px 8px 0px #000;
+            --acid-yellow: #f5ed00;
+            --acid-black: #1a1a1a;
+            --acid-white: #fffae5;
+        }
+        a {
+            color: #000;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        a:hover {
+            background-color: #000;
+            color: #f5ed00;
+        }
+        img, svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* layout full bleed */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 16px;
+        }
+        .full-bleed {
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        /* typography with raw tilt */
+        h1, h2, h3, h4 {
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            line-height: 1;
+        }
+        h1 {
+            font-size: 3rem;
+            border-left: 10px solid #000;
+            padding-left: 16px;
+            margin: 40px 0 24px;
+            transform: rotate(-0.5deg);
+        }
+        h2 {
+            font-size: 2.2rem;
+            border-bottom: 6px solid #000;
+            padding-bottom: 8px;
+            margin: 32px 0 16px;
+        }
+        h3 {
+            font-size: 1.6rem;
+            margin: 24px 0 12px;
+        }
+        p, li {
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+            font-weight: 400;
+        }
+        /* buttons / ctas */
+        .bt {
+            display: inline-block;
+            padding: 12px 28px;
+            border: var(--brutal-border);
+            background-color: var(--acid-black);
+            color: var(--acid-yellow);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.1s ease;
+            box-shadow: var(--brutal-shadow);
+        }
+        .bt:hover {
+            background-color: var(--acid-yellow);
+            color: var(--acid-black);
+            transform: translate(2px, 2px);
+            box-shadow: 4px 4px 0px #000;
+        }
+        /* navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 4px solid #000;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        .nav-logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+        }
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            font-weight: bold;
+            text-decoration: none;
+            padding: 4px 8px;
+            border: 2px solid transparent;
+        }
+        .nav-links a:hover {
+            border-color: #000;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            padding: 8px;
+        }
+        .hamburger span {
+            width: 30px;
+            height: 4px;
+            background: #000;
+            display: block;
+        }
+        /* tel link */
+        .tel-link {
+            font-weight: bold;
+            background-color: #000;
+            color: #f5ed00;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 2px solid #000;
+        }
+        .tel-link:hover {
+            background-color: #f5ed00;
+            color: #000;
+        }
+        /* article / blog */
+        .blog-post {
+            background-color: var(--acid-white);
+            border: var(--brutal-border);
+            padding: 32px 24px;
+            margin: 32px 0;
+            box-shadow: var(--brutal-shadow);
+        }
+        .blog-post .meta {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #000;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .blog-post .meta span {
+            background-color: #000;
+            color: #f5ed00;
+            padding: 2px 8px;
+        }
+        .blog-post blockquote {
+            border-left: 8px solid #000;
+            padding-left: 16px;
+            margin: 24px 0;
+            font-style: italic;
+            background: #f0e800;
+            padding: 16px;
+        }
+        .blog-post .highlight {
+            background-color: #000;
+            color: #f5ed00;
+            padding: 2px 6px;
+            display: inline-block;
+        }
+        /* responsive 768 */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            h2 { font-size: 1.8rem; }
+            nav { flex-wrap: wrap; }
+            .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                background-color: #f5ed00;
+                border: 4px solid #000;
+                padding: 16px;
+                position: absolute;
+                top: 70px;
+                left: 16px;
+                right: 16px;
+                z-index: 100;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .blog-post {
+                padding: 20px 16px;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <nav>
+            <div class="nav-logo">MG NIGHT</div>
+            <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/reviews">후기</a></li>
+                <li><a href="/blog" style="background-color:#000;color:#f5ed00;">블로그</a></li>
+                <li><a href="/guide">가이드</a></li>
+                <li><a href="/contact" class="tel-link">연락처</a></li>
+            </ul>
+        </nav>
 
-  <header class="header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">마곡 BRO RUBY RED</a>
-      <nav class="nav">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        <a href="blog.html">추천칼럼</a>
-      </nav>
+        <main>
+            <h1>마곡 유흥 찐후기 블로그</h1>
+            <article class="blog-post">
+                <div class="meta">
+                    <span>2025.03.21</span>
+                    <span>by 찐 유저 형</span>
+                </div>
+                <h2>마곡에서 처음 가본 유흥주점, 완전 대박남</h2>
+                <p>
+                    야 형들, 나 어제 마곡에서 진짜 쩌는 경험하고 왔어. 원래는 친구랑 그냥 술이나 한잔 하려고 했는데, 
+                    웬일로 "야 우리 유흥주점 한번 가볼래?" 이러길래 덥석 따라갔지. 
+                    근데 완전 반전이었어. 오늘 그 후기 좀 풀어볼게.
+                </p>
+                <p>
+                    우선 들어가자마자 분위기부터 다름. 인테리어가 약간 브루탈리스트 스타일인데, 
+                    무슨 공장을 리모델링한 느낌? 근데 전혀 싸구려 느낌 아니고 되게 고급지더라. 
+                    조명은 노란 계열이 많고 벽은 회색 콘크리트 그대로인데, 가구는 빈티지 가죽이라 
+                    그 조화가 오묘했음. 마치 서울에서 가장 힙한 술집에 온 기분이랄까.
+                </p>
+                <blockquote>
+                    "형, 여기 마곡 유흥 중에서 제일 핫하다던데?" <br>
+                    — 옆자리에서 들은 어떤 손님의 말
+                </blockquote>
+                <p>
+                    메뉴판 보니까 기본 안주는 뭐 튀김이나 과일 정도인데, 술 종류가 엄청 다양함. 
+                    위스키부터 시작해서 일본 사케, 그리고 생맥주까지. 우리는 위스키 하이볼 두 잔 시켰는데, 
+                    한 잔에 2만원 정도 했어. 마곡 유흥 주점 치고는 가격이 좀 있는 편이지만, 
+                    분위기랑 서비스 생각하면 충분히 납득 가는 가격대였음.
+                </p>
+                <p>
+                    직원분들도 엄청 친절하고, 특히 매니저로 보이는 분이 계속 테이블 돌아다니면서 
+                    "괜찮으세요?" "더 필요하신 거 있으세요?" 이러면서 챙겨줌. 
+                    이런 걸 보통 VIP 서비스라고 하더라? 나처럼 일반 손한테도 저렇게 해주는 게 신기했음. 
+                    확실히 마곡 유흥 씬은 수준이 다르구나 싶었어.
+                </p>
+                <p>
+                    <span class="highlight">TIP:</span> 
+                    저녁 8시 전에 가면 자리도 널널하고, 하우스 와인을 반값에 준다는 썰이 있음. 
+                    우리는 7시 30분쯤 도착했는데, 딱 좋았어. 시간 맞춰서 가는 걸 추천한다.
+                </p>
+                <p>
+                    총평: 마곡 유흥 처음 가는 사람도 부담 없이 갈 수 있는 곳. 
+                    분위기 좋고, 서비스 좋고, 술도 괜찮음. 다음에는 친구들 더 데리고 가려고. 
+                    여기 정보 보고 간 사람들은 후기 좀 남겨줘! 진짜 궁금함.
+                </p>
+            </article>
+
+            <!-- 공유 버튼 등 추가 요소 -->
+            <div style="display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0;">
+                <a href="#" class="bt">카카오톡 공유</a>
+                <a href="#" class="bt">인스타 스토리</a>
+                <a href="tel:010-1234-5678" class="bt">전화 문의</a>
+            </div>
+        </main>
+
+        <footer style="border-top: 4px solid #000; padding: 32px 0 16px; margin-top: 48px; text-align: center;">
+            <p>© 2025 마곡 유흥 후기 — 모든 후기는 실제 경험 기반입니다.</p>
+            <p style="font-size: 0.8rem; margin-top: 8px;">불쾌한 경험은 운영자에게 제보해주세요.</p>
+        </footer>
     </div>
-  </header>
 
-  <main class="main">
-    <article>
-      <div class="post-header">
-        <h1 class="post-title">마곡 유흥 정량 분석: 엘든링 숨겨진 소스코드가 알려준 투명한 시세 진실</h1>
-        <div class="post-meta">작성일: 2026년 5월 27일 | 작성자: 마이닝 대장 bro</div>
-      </div>
-      
-      <div class="post-content">
-        <p>
-          형들 안녕? 오늘은 밤거리 얘기를 하면서 약간 마니악한 게임 얘기로 문을 열어볼까 해. 프롬소프트웨어의 최고 걸작 '엘든링(Elden Ring)' 다들 해봤지? 이 게임이 미친 듯한 인기를 끌었던 이유 중 하나는, 제작진이 꽁꽁 숨겨둔 무기별 히든 모션 프레임이나 보스 엇박자 속성 수치가 엄청나게 정교했기 때문이야. 전 세계의 변태 코더들이 클라이언트 뜯고 데이터마이닝으로 실시간 데미지 요율 알고리즘을 모조리 규명해 냈잖아.
-        </p>
-        <p>
-          갑자기 밤거리 유흥 칼럼에서 엘든링 마이닝 썰을 푸는 이유는, 이 마곡 바닥의 주말 요율과 삐끼들의 허위 마케팅도 게임 시스템의 숨겨진 장난질과 기막히게 똑같기 때문이야.
-        </p>
-        <blockquote>
-          "겉보기에는 평범한 주류 요금제 같지만, 실제로 밤 10시 이후 대기 열 분배와 중간 연계 실장들이 가져가는 숨겨진 마진 요율표는 철저히 감춰져 있다."
-        </blockquote>
-        <p>
-          인터넷 포털에 도배된 '마곡 1등 후기'라는 글들을 데이터마이닝하듯 낱낱이 쪼개서 분석해 보면, 90% 이상이 광고비를 처발처발한 영혼 없는 바이럴이고 가짜 후기란 걸 바로 알 수 있지. 그래서 나는 어정쩡한 광고 낚시판에 분노해 아예 마곡 전역의 주말 요율과 예약 루트의 진위 여부를 싹 다 규명하고 '내상 제로 정찰 아카이브'를 세워버렸어.
-        </p>
-        <p>
-          내상을 완벽히 방지하려면 엇박자 보스 모션을 공략하듯 철저하게 '사전 가격 픽스' 원칙을 고수해야 해. 로컬 총괄 대장 실장과 다이렉트로 통화하여 가격과 룸 위생 컨디션을 사전에 조정받는 것! 그것이 마곡에서 형들의 시간과 금쪽같은 지갑을 완벽하게 지켜내는 필승의 공략법이야.
-        </p>
-        <p>
-          낚시글에 지쳐 멘붕이 왔거나, 오늘 밤 확실한 가성비 정찰 코스로 직행하고 싶다면 아무 고민 없이 📞 <strong>010-6279-0862</strong> 다이렉트 공략 게이트로 신호를 쏴라. 엘든링 데이터마이닝급으로 깔끔하게 디코딩된 진짜 리얼 정보만 즉각 알려줄게!
-        </p>
-      </div>
-    </article>
-  </main>
-
-  <footer class="footer">
-    <p><strong>마곡 유흥 정찰제 후기 정보 포털</strong></p>
-    <p>실시간 문의 및 데이터 핫라인: 📞 <a href="tel:010-6279-0862" style="color:var(--accent); font-weight:bold;">010-6279-0862</a></p>
-    <p style="font-size:0.8rem; opacity:0.5; margin-top:20px;">&copy; 2026 마곡 BRO. All Rights Reserved.</p>
-  </footer>
-
+    <script>
+        // 햄버거 메뉴 토글 (모바일에서만 동작)
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        // 메뉴 밖 클릭시 닫기 (선택사항)
+        document.addEventListener('click', function(e) {
+            const nav = document.querySelector('nav');
+            if (!nav.contains(e.target)) {
+                document.querySelector('.nav-links').classList.remove('
 </body>
 </html>
